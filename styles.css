@@ -32,9 +32,13 @@ h2 {
     text-align: center;
     border: 1px solid black;
     border-radius: 20px;
-    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+    
 }
-main {
+main, header {
+    font-family: Arial, sans-serif;
     padding: 20px;
     margin: 10px;
 }
@@ -43,4 +47,14 @@ footer {
     padding: 10px;
     text-align: center;
     border-top: 1px solid #ccc;
+    margin-left: 0;
+    margin-right: 0;
+}
+section {
+    margin-bottom: 40px;
+    box-sizing: content-box;
+    background-color: #f0f0f0;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
 }
